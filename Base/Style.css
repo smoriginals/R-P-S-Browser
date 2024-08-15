@@ -17,7 +17,52 @@ main{
 	text-align:center;
 	line-height:60px;
 }
-
+.container{
+	height:40vh;
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:flex-start;
+	justify-content:center;
+	align-items:center;
+}
+.handsigns{
+	height:250px;
+	width:80vw;
+	background-color:yellow;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:flex-start;
+	justify-content:center;
+	align-items:center;
+	gap:300px;
+}
+.icons{
+	height:200px;
+	width:200px;
+	border-radius:100px;
+	background-color:cyan;
+	border:5px solid black;
+}
+.scores{
+	height:50px;
+	width:100vw;
+	background-color:green;
+	text-align:center;
+	line-height:50px;
+}
+.scoreHandeler{
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:300px;
+}
+.newGame{
+	height:80px;
+	width:300px;
+	background-color:#ff3896;
+}
 #title{
 	color:white;
 }

@@ -2,67 +2,25 @@
 	margin:0;
 	padding:0;
 	font-family:Cera Pro;
+	color:#ffffff;
 }
-body
-{
-	background-color:#ccc;
-}
-main{
-	background-color:#76BED0;
-	height:80%;
-}
-.myNav{
+
+header{
 	height:60px;
-	background-color:#F55D3E;
+	width:100%;
+	background-color:red;
 	text-align:center;
 	line-height:60px;
 }
-.container{
-	height:40vh;
-	width:100vw;
-	display:flex;
-	flex-wrap:wrap;
-	flex-direction:flex-start;
-	justify-content:center;
-	align-items:center;
+.myNav{
+	height:60px;
+	width:100%;
 }
-.handsigns{
-	height:250px;
-	width:80vw;
-	background-color:yellow;
-	display:flex;
-	flex-wrap:wrap;
-	flex-direction:flex-start;
-	justify-content:center;
-	align-items:center;
-	gap:300px;
-}
-.icons{
-	height:200px;
-	width:200px;
-	border-radius:100px;
-	background-color:cyan;
-	border:5px solid black;
-}
-.scores{
-	height:50px;
-	width:100vw;
-	background-color:green;
+.logo{
+	height:100px;
+	width:100;
+	background-image:url("rps.png");
+	background-size:cover;
 	text-align:center;
-	line-height:50px;
-}
-.scoreHandeler{
-	height:200px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	gap:300px;
-}
-.newGame{
-	height:80px;
-	width:300px;
-	background-color:#ff3896;
-}
-#title{
-	color:white;
+	line-height:60px;
 }

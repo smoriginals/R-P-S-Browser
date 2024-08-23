@@ -9,7 +9,7 @@
 header{
 	height:90px;
 	width:100%;
-	background-color:#D72638;
+	background-color:#0B132B;
 }
 footer{
 	height:30vh;
@@ -38,7 +38,7 @@ footer{
 .container{
 	height:30vh;
 	width:100vw;
-	background-color:#FF570A;
+	background-color:#5BC0BE;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -87,19 +87,13 @@ footer{
 	height:140px;
 	width:140px;
 	border-radius:100px;
-	border:4px solid black;
+	border:3px solid #3A506B;
 }
-@Keyframe anim1{
-	from{
-		scale:1;
-	}
-	to{
-		scale:1.5;
-	}
-}
+
 .icons:hover{
 	cursor:pointer;
-	anim1;
+	box-shadow:0 0 25px;
+	color:#3A506B;
 }
 .newGame{
 	height:10vh;
@@ -110,15 +104,24 @@ footer{
 	align-items:center;
 	background-color:black;
 }
-.rock{
+.newGame:hover{
+	box-shadow:0 0 25px;
+	color:white;
+	cursor:pointer;
+}
+#ng:hover{
+	color:cyan;
+	cursor:pointer;
+}
+#rock{
 	background-image:url("rc.png");
 	background-size:cover;
 }
-.paper{
+#paper{
 	background-image:url("pp.png");
 	background-size:cover;
 }
-.scissors{
+#scissors{
 	background-image:url("sc.png");
 	background-size:cover;
 }

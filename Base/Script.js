@@ -25,45 +25,51 @@ let GenerateRandom=(userChoiceId)=>{
 	let compChoice=Math.floor(Math.random()*selection.length);
 	console.log("UserSelection: ",userChoiceId);
 	console.log("ComputerSelection: ",selection[compChoice]);
-
 	
 	if(userChoiceId===selection[compChoice])
 	{	
-		console.log("Game Draw!!");
+		ng.innerText="! Draw !";
+		
 	}
+
 	else if(userChoiceId==="rock"&&compChoice===1)
 	{
-		console.log("You Lose!");
+		ng.innerText="! You Lose !";
+		computer++;
+		scoreBC.innerText=computer;
+		
 	}
 	else if(userChoiceId==="rock"&&compChoice===2)
 	{
-		console.log("You Lose!");
+		ng.innerText="! You Won !";
+		player++;
+		scoreBP.innerText=player;
+	}
+
+	else if(userChoiceId==="paper"&&compChoice===0)
+	{
+		ng.innerText="! You Won !";
+		player++;
+		scoreBP.innerText=player;
 	}
 	else if(userChoiceId==="paper"&&compChoice===2)
 	{
-		console.log("You Lose!");
-	}
-	else if(userChoiceId==="paper"&&compChoice===0)
-	{
-		console.log("You Won!");
+		ng.innerText="! You Lose !";
+		computer++;
+		scoreBC.innerText=computer;
 	}
 	else if(userChoiceId==="scissors"&&compChoice===0)
 	{
-		console.log("You Lose!");
+		ng.innerText="! You Lose !";
+		computer++;
+		scoreBC.innerText=computer;
 	}
-	else if(userChoiceId==="scissors"&&compChoice===2)
+	else if(userChoiceId==="scissors"&&compChoice===1)
 	{
-		console.log("You Won!");
-	}
-	else
-	{
-		Draw(userChoiceId);
+		ng.innerText="! You Won !";
+		player++;
+		scoreBP.innerText=player;
 	}
 }
 
-let Winner=()=>{
-	
-}
-let Lose=()=>{
-	
-}
+

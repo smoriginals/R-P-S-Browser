@@ -88,6 +88,7 @@ footer{
 	width:140px;
 	border-radius:100px;
 	border:3px solid #3A506B;
+	flex:0 0 140px;
 }
 
 .icons:hover{
@@ -100,6 +101,7 @@ footer{
 	width:20vw;
 	border-radius:20px;
 	display:flex;
+	flex:0 0 300px;
 	justify-content:center;
 	align-items:center;
 	background-color:black;

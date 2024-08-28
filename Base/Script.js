@@ -3,7 +3,7 @@ const newGame=document.querySelector(".newGame");
 const ngTitle=document.querySelector("#ng");
 const scoreBP=document.querySelector("#playerId");
 const scoreBC=document.querySelector("#comId");
-//topaz ai video enhancer 
+
 let player=0;
 let computer=0;
 let selection=["rock","paper","scissors"];
@@ -23,8 +23,8 @@ let PlayGame=(userChoiceId)=>{
 
 let GenerateRandom=(userChoiceId)=>{
 	let compChoice=Math.floor(Math.random()*selection.length);
-	console.log("UserSelection: ",userChoiceId);
-	console.log("ComputerSelection: ",selection[compChoice]);
+	//console.log("UserSelection: ",userChoiceId);
+	//console.log("ComputerSelection: ",selection[compChoice]);
 	
 	if(userChoiceId===selection[compChoice])
 	{	

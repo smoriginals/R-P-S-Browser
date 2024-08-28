@@ -28,48 +28,54 @@ let GenerateRandom=(userChoiceId)=>{
 	
 	if(userChoiceId===selection[compChoice])
 	{	
-		ng.innerText="! Draw !";
 		
+		ng.innerText=`! Draw ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="#5BC0BE";
 	}
 
 	else if(userChoiceId==="rock"&&compChoice===1)
 	{
-		ng.innerText="! You Lose !";
+		ng.innerText=`! You Lose ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="red";
 		computer++;
 		scoreBC.innerText=computer;
 		
 	}
 	else if(userChoiceId==="rock"&&compChoice===2)
 	{
-		ng.innerText="! You Won !";
+		ng.innerText=`! You Won ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="green";
 		player++;
 		scoreBP.innerText=player;
 	}
 
 	else if(userChoiceId==="paper"&&compChoice===0)
 	{
-		ng.innerText="! You Won !";
+		ng.innerText=`! You Won ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="green";
 		player++;
 		scoreBP.innerText=player;
 	}
 	else if(userChoiceId==="paper"&&compChoice===2)
 	{
-		ng.innerText="! You Lose !";
+		ng.innerText=`! You Lose ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="red";
 		computer++;
 		scoreBC.innerText=computer;
 	}
 	else if(userChoiceId==="scissors"&&compChoice===0)
 	{
-		ng.innerText="! You Lose !";
+		ng.innerText=`! You Lose ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="red";
 		computer++;
 		scoreBC.innerText=computer;
 	}
 	else if(userChoiceId==="scissors"&&compChoice===1)
 	{
-		ng.innerText="! You Won !";
+		ng.innerText=`! You Won ! You-${userChoiceId} & Comp-${selection[compChoice]}`;
+		newGame.style.backgroundColor="green";
 		player++;
 		scoreBP.innerText=player;
 	}
 }
-
 

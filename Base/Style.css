@@ -98,10 +98,10 @@ footer{
 }
 .newGame{
 	height:10vh;
-	width:20vw;
-	border-radius:20px;
+	width:45vw;
+	border-radius:10px;
 	display:flex;
-	flex:0 0 300px;
+	flex:0 0 650px;
 	justify-content:center;
 	align-items:center;
 	background-color:black;

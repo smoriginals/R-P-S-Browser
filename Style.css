@@ -1,0 +1,129 @@
+﻿*{
+	margin:0;
+	padding:0;
+	border:border-box;
+	font-family:Cera Pro;
+	color:#ffffff;
+}
+
+header{
+	height:90px;
+	width:100%;
+	background-color:#0B132B;
+}
+footer{
+	height:30vh;
+	width:100%;
+	background-color:#D72638;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.myNav{
+	height:90px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.logo{
+	height:80px;
+	width:80px;
+	background-image:url("rps.png");
+	background-size:cover;
+	text-align:center;
+	line-height:60px;
+}
+
+.container{
+	height:30vh;
+	width:100vw;
+	background-color:#5BC0BE;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.scores{
+	height:30vh;
+	width:100vw;
+	background-color:#12355B;
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.scoreHandeler{
+	height:15vh;
+	width:100vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.cont{
+	height:10vh;
+	width:10vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:250px;
+}
+.user,.comp{
+	height:10vh;
+	width:10vw;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+.handsigns{
+	height:25vh;
+	width:60vw;
+	display:flex;
+	gap:200px;
+	justify-content:center;
+	align-items:center;
+}
+.icons{
+	height:140px;
+	width:140px;
+	border-radius:100px;
+	border:3px solid #3A506B;
+	flex:0 0 140px;
+}
+
+.icons:hover{
+	cursor:pointer;
+	box-shadow:0 0 25px;
+	color:#3A506B;
+}
+.newGame{
+	height:10vh;
+	width:45vw;
+	border-radius:10px;
+	display:flex;
+	flex:0 0 650px;
+	justify-content:center;
+	align-items:center;
+	background-color:black;
+}
+.newGame:hover{
+	box-shadow:0 0 25px;
+	color:white;
+	cursor:pointer;
+}
+#ng:hover{
+	color:cyan;
+	cursor:pointer;
+}
+#rock{
+	background-image:url("rc.png");
+	background-size:cover;
+}
+#paper{
+	background-image:url("pp.png");
+	background-size:cover;
+}
+#scissors{
+	background-image:url("sc.png");
+	background-size:cover;
+}

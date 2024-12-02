@@ -1,2 +1,1 @@
-# R-P-S-Browser
-RPS stands for rock paper secissor ,Which is mini project.
+[OPEN IN BROWSER](https://smos-github.github.io/BreadcrumbsR-P-S-Browser/)

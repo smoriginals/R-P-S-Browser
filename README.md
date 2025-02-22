@@ -1,1 +1,1 @@
-[OPEN IN BROWSER](https://smos-github.github.io/BreadcrumbsR-P-S-Browser/)
+[OPEN IN BROWSER](https://smoriginals.github.io/R-P-S-Browser/)
